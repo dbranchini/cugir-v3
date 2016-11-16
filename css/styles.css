@@ -1,0 +1,217 @@
+
+/* @font-face kits by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {font-family:"Hero";src:url("../fonts/Hero.eot?") format("eot"),url("../fonts/Hero.woff") format("woff"),url("../fonts/Hero.ttf") format("truetype"),url("../fonts/Hero.svg#Hero") format("svg");font-weight:normal;font-style:normal;}
+@font-face {font-family:"Hero-Light";src:url("../fonts/Hero_Light.eot?") format("eot"),url("../fonts/Hero_Light.woff") format("woff"),url("../fonts/Hero_Light.ttf") format("truetype"),url("../fonts/Hero_Light.svg#Hero-Light") format("svg");font-weight:normal;font-style:normal;}
+
+header {
+  padding: 15px 5px 10px;
+  border-bottom: 1px solid #5C626D;
+  position: relative;
+}
+header img {
+  margin-left: 10px;
+}
+header .search-browse-interaction {
+  margin-top: 72px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+html, body {
+  padding: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hero-Light', sans-serif;
+}
+
+a {
+  color: #e68742;
+}
+
+.container-fluid {
+  padding: 0;
+  height: calc(100% - 143px);
+}
+
+.col-sm-5, #map, .col-sm-7, #results-panel {
+  padding: 0;
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+  padding: 10px;
+}
+
+#results-panel {
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+/*.btn {
+  margin-left: 3px;
+  margin-right: 3px;
+}*/
+
+.btn-primary {
+  background-color: #0E98A7;
+  border-color: #0E98A7;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: 'Hero';
+}
+
+.btn-primary:hover {
+  background-color: #046671;
+  border-color: #046671;
+}
+
+.btn-alt {
+  background-color: #E8E9EA !important;
+  border-color: #E8E9EA !important;
+  color: #013041 !important;
+}
+
+.btn-alt:hover {
+  background-color: #fff !important;
+  border-color: #046671 !important;
+  color: #046671 !important;
+}
+
+.search-form {
+  display: inline-block;
+}
+
+ /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 5000; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #12B3C5; /* Turquoise*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: scroll; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav h1 {
+  color: #fff;
+  padding-left: 10px;
+  font-family: 'Hero-Light';
+}
+
+.sidenav .panel, .sidenav .panel-default, .sidenav .panel-heading {
+  border: 0;
+  border-radius: 0;
+}
+
+.sidenav .panel-default {
+  background-color: #12B3C5;
+}
+
+.sidenav .panel-heading {
+ background-color: #17A7B7;
+}
+
+.sidenav .panel-default .panel-title a {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: 'Hero-Light';
+  color: #fff;
+}
+
+.sidenav .panel-default .panel-collapse .panel-body {
+  border: 0;
+}
+
+.sidenav a {
+  color: #e2e2e2;
+  font-size: 16px;
+  font-family: 'Lato';
+}
+
+.sidenav a:hover {
+  color: #fff;
+}
+
+.sidenav .btn {
+  text-transform: capitalize;
+  font-family: 'Lato';
+  border-radius: 2px;
+}
+
+.sidenav .btn-primary {
+  background-color: #046671;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.sidenav .btn-default {
+  background-color: #fff;
+  color: #666;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.welcome {
+  font-size: 28px;
+  color: #4A4A4A;
+}
+
+.welcome-topics {
+  font-size: 22px;
+  color: #E1BB32;
+}
+
+.nav-primary {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #E8E9EA;
+  border-bottom-left-radius: 1.5em;
+  min-height: 40px;
+  min-width: 280px;
+}
+
+.nav-primary a {
+  display: inline-block;
+  background-color: inherit;
+  color: #013041;
+  padding: 10px 15px 8px;
+  font-family: 'Hero';
+  font-size: 16px;
+}
+
+.nav-secondary {
+  position: absolute;
+  right: 300px;
+  top: 0;
+}
+
+.nav-secondary a {
+  display: inline-block;
+  background-color: inherit;
+  color: #5C626D;
+  padding: 10px 30px 12px 0;
+  font-size: 13px;
+}
+
